@@ -55,7 +55,7 @@ export const Category = () => {
 
   useEffect(() => {
     const getCat = async () => {
-      const res = await axios.get("/category" + search)
+      const res = await axios.get("https://blogbackend-12nr.onrender.com/category" + search)
       setCat(res.data)
     }
     getCat()

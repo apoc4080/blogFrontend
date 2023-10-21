@@ -31,13 +31,13 @@ export const Create = () => {
       newPost.photo = filename
 
       try {
-        await axios.post("/upload", data)
+        await axios.post("https://blogbackend-12nr.onrender.com/upload", data)
       } catch (error) {
         console.log(error)
       }
     }
     try {
-      const res = await axios.post("/posts", newPost)
+      const res = await axios.post("https://blogbackend-12nr.onrender.com/posts", newPost)
       window.location.replace("/post/" + res.data._id)
     } catch (error) {}
   }

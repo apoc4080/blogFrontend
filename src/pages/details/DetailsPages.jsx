@@ -23,7 +23,7 @@ export const DetailsPages = () => {
   const [post, setPost] = useState({})
   useEffect(() => {
     const getPost = async () => {
-      const res = await axios.get("/posts/" + path)
+      const res = await axios.get("https://blogbackend-12nr.onrender.com/posts/" + path)
       console.log(res)
       //setp 2
       setPost(res.data)
@@ -41,7 +41,7 @@ export const DetailsPages = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/posts/${post._id}`, { data: { username: user.username } })
+      await axios.delete(`https://blogbackend-12nr.onrender.com/posts/${post._id}`, { data: { username: user.username } })
       window.location.replace("/")
     } catch (error) {}
   }
@@ -49,7 +49,7 @@ export const DetailsPages = () => {
   // setp 4
   const handleUpdate = async () => {
     try {
-      await axios.put(`/posts/${post._id}`, { username: user.username, title, desc })
+      await axios.put(`https://blogbackend-12nr.onrender.com/posts/${post._id}`, { username: user.username, title, desc })
       window.location.reload()
     } catch (error) {}
   }

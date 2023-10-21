@@ -14,7 +14,7 @@ export const Home = () => {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get("/posts" + search)
+      const res = await axios.get("https://blogbackend-12nr.onrender.com/posts" + search)
       setPosts(res.data)
     }
     fetchPost()
