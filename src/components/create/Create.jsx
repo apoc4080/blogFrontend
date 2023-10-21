@@ -1,46 +1,92 @@
-import React, { useEffect } from "react"
+import React from "react"
 import "./create.css"
 import { IoIosAddCircleOutline } from "react-icons/io"
 import { useState } from "react"
 import { useContext } from "react"
 import { Context } from "../../context/Context"
 import axios from "axios"
-import { useLocation } from "react-router-dom"
+import {
+  getStorage,
+  ref,
+  uploadBytesResumable,
+  getDownloadURL,
+} from "firebase/storage";
+import app from "../../firebase";
+
+
+import { useHistory } from "react-router-dom"
 
 export const Create = () => {
   const [title, setTitle] = useState("")
   const [desc, setDesc] = useState("")
   const [file, setFile] = useState(null)
   const { user } = useContext(Context)
-
+  const history = useHistory()
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    const newPost = {
-      username: user.username,
-      title,
-      desc,
-      file,
-    }
 
     if (file) {
-      const data = new FormData()
-      const filename = Date.now() + file.name
-      data.append("name", filename)
-      data.append("file", file)
-      newPost.photo = filename
+      const fileName = new Date().getTime() + file.name;
+      const storage = getStorage(app);
+      const storageRef = ref(storage, fileName);
+      const uploadTask = uploadBytesResumable(storageRef, file);
 
-      try {
-        await axios.post("https://blogbackend-12nr.onrender.com/upload", data)
-      } catch (error) {
-        console.log(error)
+      uploadTask.on(
+        "state_changed",
+        (snapshot) => {
+          // Observe state change events such as progress, pause, and resume
+          // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+          const progress =
+            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+          console.log("Upload is " + progress + "% done");
+          switch (snapshot.state) {
+            case "paused":
+              console.log("Upload is paused");
+              break;
+            case "running":
+              console.log("Upload is running");
+              break;
+            default:
+          }
+        },
+        (error) => {
+          // Handle unsuccessful uploads
+        },
+        () => {
+          // Handle successful uploads on complete
+          // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+          getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
+            console.log(downloadURL);
+            const newPost = {
+              username: user.username,
+              title,
+              desc,
+              photo : downloadURL,
+            }
+            try {
+              console.log(newPost);
+              await axios.post("https://blogbackend-12nr.onrender.com/posts", newPost)
+              history.push('/');
+            } catch (error) { }
+          });
+        }
+      );
+    }else{
+      const newPost = {
+        username: user.username,
+        title,
+        desc
       }
+      try {
+        console.log(newPost);
+        await axios.post("https://blogbackend-12nr.onrender.com/posts", newPost)
+        history.push('/');
+      } catch (error) { }
     }
-    try {
-      const res = await axios.post("https://blogbackend-12nr.onrender.com/posts", newPost)
-      window.location.replace("/post/" + res.data._id)
-    } catch (error) {}
   }
+
+  console.log(file);
 
   return (
     <>

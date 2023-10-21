@@ -1,12 +1,9 @@
 import React from "react"
 import "./blog.css"
-import { blog } from "../../assets/data/data"
 import { AiOutlineTags, AiOutlineClockCircle, AiOutlineComment, AiOutlineShareAlt } from "react-icons/ai"
 import { Link } from "react-router-dom"
 
 export const Card = ({ posts }) => {
-  // create file garnebelema
-  const PublicFlo = "http://localhost:5000/images/"
   return (
     <>
       <section className='blog'>
@@ -14,7 +11,7 @@ export const Card = ({ posts }) => {
           {posts.map((item) => (
             <div className='box boxItems' key={item.id}>
               {/* first ma yo  <div className='img'>{item.photo && <img src={item.cover} alt='' />}</div>*/}
-              <div className='img'>{item.photo && <img src={PublicFlo + item.photo} alt='' />}</div>
+              <div className='img'>{item.photo && <img src={item.photo} alt='' />}</div>
               <div className='details'>
                 <div className='tag'>
                   <AiOutlineTags className='icon' />
