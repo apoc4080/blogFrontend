@@ -28,7 +28,7 @@ export const DetailsPages = () => {
 
   // step 3
   // file create garne time add garne
-  const PublicFlo = "http://localhost:5000/images/"
+  const PublicFlo = ""
   const { user } = useContext(Context)
 
   const handleDelete = async () => {
