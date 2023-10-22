@@ -27,7 +27,7 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src={PublicFlo + user.profilePic} alt='' />
+              <img src={user.profilePic} alt='' />
             </button>
             {profileOpen && (
               <div className='openProfile boxItems' onClick={close}>
