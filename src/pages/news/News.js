@@ -6,9 +6,9 @@ const News = () => {
 
   const fetchData = async () => {
     try {
-      let response = await fetch(
-        "https://newsapi.org/v2/everything?q=queer lgbtq india&sortBy=popularity&apiKey=4cec2561e3e34b0dbfa0fd9d7d470899"
-      );
+      // Encode the URL to handle spaces in query parameters
+      const apiUrl = "https://newsapi.org/v2/everything?q=queer%20lgbtq%20india&sortBy=popularity&apiKey=4cec2561e3e34b0dbfa0fd9d7d470899";
+      let response = await fetch(apiUrl);
       let data = await response.json();
       setMyNews(data.articles);
     } catch (error) {
