@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
+import News from "./pages/news/News"
 import { Context } from "./context/Context"
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route exact path='/post/:id' component={DetailsPages} />
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
+          <Route exact path='/news' component={News} />
         </Switch>
         <Footer />
       </Router>
