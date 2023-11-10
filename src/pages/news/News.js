@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./News.css";
+import {newss} from "../../assets/data/data"
 
 const News = () => {
   const [mynews, setMyNews] = useState([]);
@@ -7,10 +8,11 @@ const News = () => {
   const fetchData = async () => {
     try {
       // Encode the URL to handle spaces in query parameters
-      const apiUrl = "https://newsapi.org/v2/everything?q=queer%20lgbtq%20india&sortBy=popularity&apiKey=4cec2561e3e34b0dbfa0fd9d7d470899";
-      let response = await fetch(apiUrl);
-      let data = await response.json();
-      setMyNews(data.articles);
+      // const apiUrl = "https://blogbackend-12nr.onrender.com/news";
+      // let response = await fetch(apiUrl);
+      // let data = await response.json();
+      // setMyNews(data.articles);
+      setMyNews(newss.articles);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
