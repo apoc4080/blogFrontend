@@ -9,6 +9,10 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
 import News from "./pages/news/News"
+import Movies from "./pages/movies/Movies"
+import Icons from "./pages/icons/Icons"
+import Parades from "./pages/parades/Parades"
+import Helpline from "./pages/helpline/Helpline"
 import { Context } from "./context/Context"
 
 const App = () => {
@@ -26,6 +30,10 @@ const App = () => {
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
           <Route exact path='/news' component={News} />
+          <Route exact path='/movies' component={Movies} />
+          <Route exact path='/icons' component={Icons} />
+          <Route exact path='/parades' component={Parades} />
+          <Route exact path='/helpline' component={Helpline} />
         </Switch>
         <Footer />
       </Router>

@@ -1,0 +1,62 @@
+/* Movies.css */
+
+.movies-header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.movies-header h1 {
+    font-size: 2rem;
+    color: #3498db; /* Change the heading color to a blue shade */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.movie-card {
+    width: 200px; /* Adjust the width of the card */
+    border: 1px solid #e1e1e1;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%; /* Make the image fully visible */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.movie-card h3 {
+    font-size: 1.2rem;
+    margin: 10px;
+    text-align: center;
+    color: #333; /* Change the heading color to a darker shade */
+}
+
+/* Adjust card width for smaller screens */
+@media (max-width: 768px) {
+    .movies-list {
+        justify-content: center;
+    }
+
+    .movie-card {
+        width: 90%;
+    }
+}

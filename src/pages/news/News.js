@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./News.css";
-import {newss} from "../../assets/data/data"
+import {newss} from "./info"
 
 const News = () => {
   const [mynews, setMyNews] = useState([]);

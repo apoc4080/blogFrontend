@@ -1,0 +1,17 @@
+export const iconsData = [
+    { id: 1, name: 'Laxmi Narayan Tripathi', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.40.05.jpg', url: 'https://en.m.wikipedia.org/wiki/Laxmi_Narayan_Tripathi' },
+    { id: 2, name: 'Apurva Asrani', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.34.51-1.jpg', url: 'https://en.m.wikipedia.org/wiki/Apurva_Asrani' },
+    { id: 3, name: 'Dutee Chand', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-11.51.18-1.png', url: 'https://en.m.wikipedia.org/wiki/Dutee_Chand' },
+    { id: 4, name: 'Rituparno Ghosh', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.36.46.jpg', url: 'https://en.m.wikipedia.org/wiki/Rituparno_Ghosh' },
+    { id: 5, name: 'Wendell Rodricks', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.13.10.jpg', url: 'https://en.m.wikipedia.org/wiki/Wendell_Rodricks' },
+    { id: 6, name: 'Ritu Dalmia', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.26.05.jpg', url: 'https://en.m.wikipedia.org/wiki/Ritu_Dalmia' },
+    { id: 6, name: 'Apsara Reddy', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.29.54.jpg', url: 'https://en.m.wikipedia.org/wiki/Apsara_Reddy' },
+    { id: 6, name: 'Vikram Seth', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.10.27.jpg', url: 'https://en.m.wikipedia.org/wiki/Vikram_Seth' },
+    { id: 6, name: 'Karan Johar', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-11.54.28.jpg', url: 'https://en.m.wikipedia.org/wiki/Karan_Johar' },
+    { id: 6, name: 'Rohit Bal', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.16.36.jpg', url: 'https://en.m.wikipedia.org/wiki/Rohit_Bal' },
+    { id: 6, name: 'Keshav Suri', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.04.30.jpg', url: 'https://keshavsuri.foundation/profile' },
+    { id: 6, name: 'Onir', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.05.25.jpg', url: 'https://en.m.wikipedia.org/wiki/Onir' },
+    { id: 6, name: 'Arundhati Katju', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.20.49.jpg', url: 'https://en.m.wikipedia.org/wiki/Arundhati_Katju' },
+    { id: 6, name: 'Devdutt Pattanaik', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-12.23.47.jpg', url: 'https://en.m.wikipedia.org/wiki/Devdutt_Pattanaik' },
+    { id: 6, name: 'Sushant Divgikar', photo: 'https://lgbtqindiaresource.files.wordpress.com/2020/10/picsart_10-01-01.19.11.jpg', url: 'https://en.m.wikipedia.org/wiki/Sushant_Divgikar' },
+];

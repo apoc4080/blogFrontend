@@ -1,0 +1,67 @@
+/* Parades.css */
+
+.parades-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.parade-list {
+    list-style: none;
+    padding: 0;
+}
+
+.parade-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.parade-number {
+    display: inline-block;
+    background-color: #eb6134; /* Changed to #eb6134 */
+    color: #fff;
+    padding: 8px; /* Reduced padding to 8px */
+    font-size: 0.8rem; /* Further reduced text size to 0.8rem */
+    font-weight: bold;
+}
+
+.parade-details {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2rem; /* Reduced font size to 1.2rem */
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.parade-link {
+    color: #3498db;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #2980b9;
+    }
+}
