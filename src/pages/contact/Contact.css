@@ -1,0 +1,71 @@
+/* ContactPage.css */
+
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #eb6134;
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .card {
+    border: none; /* Remove the border */
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text content */
+    cursor: pointer;
+  }
+  
+  .card img {
+    width: 120px; /* Set your desired fixed width */
+    height: 120px; /* Set your desired fixed height */
+    object-fit: cover; /* Maintain aspect ratio while covering the fixed size */
+    border-radius: 50%; /* Display the image in a circle */
+  }
+  
+  .card-details {
+    padding: 15px;
+  }
+  
+  .card h3 {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  .supervisor-section,
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Styling for the supervisor card */
+  .supervisor-section .card {
+    flex-basis: 100%;
+    text-align: center; /* Center the content */
+  }
+  
+  /* Styling for the team member cards */
+  .team-section .card {
+    flex-basis: calc(33.3333% - 20px); /* Adjust for spacing */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .team-section .card {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  

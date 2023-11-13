@@ -13,6 +13,9 @@ import Movies from "./pages/movies/Movies"
 import Icons from "./pages/icons/Icons"
 import Parades from "./pages/parades/Parades"
 import Helpline from "./pages/helpline/Helpline"
+import Contact from "./pages/contact/Contact"
+import Course from "./pages/course/Course"
+import Initiatives from "./pages/initiatives/Initiatives"
 import { Context } from "./context/Context"
 
 const App = () => {
@@ -34,6 +37,10 @@ const App = () => {
           <Route exact path='/icons' component={Icons} />
           <Route exact path='/parades' component={Parades} />
           <Route exact path='/helpline' component={Helpline} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/course' component={Course} />
+          <Route exact path='/initiatives' component={Initiatives} />
+
         </Switch>
         <Footer />
       </Router>

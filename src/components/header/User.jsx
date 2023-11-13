@@ -19,7 +19,7 @@ export const User = () => {
     setProfileOpen(false)
   }
 
-  const PublicFlo = ""
+  // const PublicFlo = ""
 
   return (
     <>
@@ -27,18 +27,19 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src={user.profilePic} alt='' />
+              <img src={"log.png"} alt='name' />
+              {/* <img src={user.profilePic} alt='' /> */}
             </button>
             {profileOpen && (
               <div className='openProfile boxItems' onClick={close}>
                 <Link to={"/account"}>
                   <div className='image'>
                     <div className='img'>
-                      <img src={PublicFlo + user.profilePic} alt='' />
+                      <img src={"log.png"} alt='' />
                     </div>
                     <div className='text'>
                       <h4>{user.username}</h4>
-                      <label>Los Angeles, CA</label>
+                      {/* <label>Los Angeles, CA</label> */}
                     </div>
                   </div>
                 </Link>

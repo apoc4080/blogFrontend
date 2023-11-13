@@ -1,0 +1,79 @@
+/* GenderStudiesPage.css */
+
+.gender-studies-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .gender-studies-section h2 {
+    color: #eb6134;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .gender-studies-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    margin-bottom: 30px; /* Add space between each list item */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Ensure border-radius works properly */
+    padding: 20px; /* Add padding around the contents */
+  }
+  
+  .course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Ensure both divs have the same height */
+  }
+  
+  .info-left {
+    flex: 3; /* Adjusted to 75% of the row */
+  }
+  
+  .info-right {
+    flex: 1; /* Adjusted to 25% of the row */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px; /* Adjust the spacing between the columns */
+    padding-left: 20px; /* Add padding to separate text from the line */
+    border-left: 1px solid #333; /* Add a vertical line */
+  }
+  
+  .gender-studies-section h3 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .gender-studies-section p {
+    margin-bottom: 10px;
+    display: inline;
+  }
+  
+  .gender-studies-section a {
+    color: #eb6134;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .gender-studies-section a:hover {
+    color: #333;
+  }
+  
+
+  .gender-studies-section .location {
+    margin-top: 10px; /* Reset margin-top for location */
+    margin-bottom: 0; /* Add margin-bottom for location */
+  }
+  
