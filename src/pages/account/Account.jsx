@@ -98,7 +98,10 @@ export const Account = () => {
           <div className='content'>
             <div className='left'>
               <div className='img flexCenter'>
-                <img src={file ? URL.createObjectURL(file) : PublicFlo + user.profilePic} alt='' />
+                <img
+                  src={file ? URL.createObjectURL(file) : (user.profilePic || user.profilePic === "" ? "log.png" : user.profilePic)}
+                  alt=''
+                />
                 <label htmlFor='inputfile'>
                   <IoIosAddCircleOutline className='icon' />
                 </label>

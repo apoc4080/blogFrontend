@@ -22,11 +22,12 @@ export const Card = ({ posts }) => {
                 <Link to={`/post/${item._id}`}>
                   <h3>{item.title}</h3>
                 </Link>
+                <label htmlFor=''>{item.username}</label>
                 <p>{item.desc.slice(0, 180)}...</p>
                 <div className='date'>
                   <AiOutlineClockCircle className='icon' /> <label htmlFor=''>{new Date(item.createdAt).toDateString()}</label>
-                  <AiOutlineComment className='icon' /> <label htmlFor=''>27</label>
-                  <AiOutlineShareAlt className='icon' /> <label htmlFor=''>SHARE</label>
+                  {/* <AiOutlineComment className='icon' /> <label htmlFor=''>27</label> */}
+                  {/* <AiOutlineShareAlt className='icon' />  */}
                 </div>
               </div>
             </div>
