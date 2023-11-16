@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react"
 import { IoSettingsOutline } from "react-icons/io5"
-import { BsBagCheck } from "react-icons/bs"
-import { AiOutlineHeart } from "react-icons/ai"
+// import { BsBagCheck } from "react-icons/bs"
+// import { AiOutlineHeart } from "react-icons/ai"
 import { GrHelp } from "react-icons/gr"
 import { BiLogOut } from "react-icons/bi"
 import { RiImageAddLine } from "react-icons/ri"
@@ -27,7 +27,7 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src={"log.png"} alt='name' />
+              <img src={user.profilePic === "" ? "log.png" : user.profilePic} alt='name' />
               {/* <img src={user.profilePic} alt='' /> */}
             </button>
             {profileOpen && (
@@ -35,11 +35,11 @@ export const User = () => {
                 <Link to={"/account"}>
                   <div className='image'>
                     <div className='img'>
-                      <img src={"log.png"} alt='' />
+                    <img src={user.profilePic === "" ? "log.png" : user.profilePic} alt='name' />
                     </div>
                     <div className='text'>
                       <h4>{user.username}</h4>
-                      {/* <label>Los Angeles, CA</label> */}
+                      {/* <label>India</label> */}
                     </div>
                   </div>
                 </Link>

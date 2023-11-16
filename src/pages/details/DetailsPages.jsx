@@ -43,7 +43,7 @@ export const DetailsPages = () => {
     try {
       await axios.delete(`https://blogbackend-12nr.onrender.com/posts/${post._id}`, { data: { username: user.username } })
       window.location.replace("/")
-    } catch (error) {}
+    } catch (error) { }
   }
 
   // setp 4
@@ -51,39 +51,88 @@ export const DetailsPages = () => {
     try {
       await axios.put(`https://blogbackend-12nr.onrender.com/posts/${post._id}`, { username: user.username, title, desc })
       window.location.reload()
-    } catch (error) {}
+    } catch (error) { }
   }
 
   return (
     <>
       <section className='singlePage'>
-        <div className='container'>
-          <div className='left'>{post.photo && <img src={PublicFlo + post.photo} alt='' />}</div>
-          <div className='right'>
-            {post.username === user?.username && (
-              <div className='buttons'>
-                <button className='button' onClick={() => setUpdate(true)}>
-                  <BsPencilSquare />
-                </button>
-                <button className='button' onClick={handleDelete}>
-                  <AiOutlineDelete />
-                </button>
-                {update && (
-                  <button className='button' onClick={handleUpdate}>
-                    Update
-                  </button>
+        {
+          update ? (
+            <div className='container'>
+              <div className='left'>
+                {post.photo && <img src={post.photo} alt='' />}
+              </div>
+              <div className='right'>
+                <input
+                  type='text'
+                  value={title}
+                  className='updateInput'
+                  onChange={(e) => setTitle(e.target.value)}
+                />
+                <p>
+                  {/* Author: <Link to={`/?user=${post.username}`}>{post.username}</Link> */}
+                  Author: {post.username}
+                </p>
+                {post.username === user?.username && (
+                  <div className='buttons'>
+                    <button className='button' onClick={() => setUpdate(true)}>
+                      <BsPencilSquare />
+                    </button>
+                    <button className='button' onClick={handleDelete}>
+                      <AiOutlineDelete />
+                    </button>
+                    {update && (
+                      <button className='button' onClick={handleUpdate}>
+                        Update
+                      </button>
+                    )}
+                  </div>
                 )}
               </div>
-            )}
-
-            {update ? <input type='text' value={title} className='updateInput' onChange={(e) => setTitle(e.target.value)} /> : <h1>{post.title}</h1>}
-            {update ? <textarea value={desc} cols='30' rows='10' className='updateInput' onChange={(e) => setDesc(e.target.value)}></textarea> : <p>{post.desc}</p>}
-
-            <p>
-              Author: <Link to={`/?user=${post.username}`}>{post.username}</Link>
-            </p>
-          </div>
-        </div>
+              <div className="below">
+                <textarea
+                  value={desc}
+                  cols='30'
+                  rows='100'
+                  className='updateInput'
+                  onChange={(e) => setDesc(e.target.value)}
+                ></textarea>
+              </div>
+            </div>
+          ) : (
+            <div className='container'>
+              <div className='left'>
+                {post.photo && <img src={post.photo} alt='' />}
+              </div>
+              <div className='right'>
+                <h1>{post.title}</h1>
+                <p>
+                  {/* Author: <Link to={`/?user=${post.username}`}>{post.username}</Link> */}
+                  Author: {post.username}
+                </p>
+                {post.username === user?.username && (
+                  <div className='buttons'>
+                    <button className='button' onClick={() => setUpdate(true)}>
+                      <BsPencilSquare />
+                    </button>
+                    <button className='button' onClick={handleDelete}>
+                      <AiOutlineDelete />
+                    </button>
+                    {update && (
+                      <button className='button' onClick={handleUpdate}>
+                        Update
+                      </button>
+                    )}
+                  </div>
+                )}
+              </div>
+              <div className="below">
+                <pre>{post.desc}</pre>
+              </div>
+            </div>
+          )
+        }
       </section>
     </>
   )

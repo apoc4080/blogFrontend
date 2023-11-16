@@ -16,11 +16,11 @@ export const Account = () => {
 
   // same from create file
   const [file, setFile] = useState(null)
-  const [username, setUsername] = useState("")
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
+  const [username, setUsername] = useState(user.username)
+  const [email, setEmail] = useState(user.email)
+  const [password, setPassword] = useState(user.password)
   const [succ, setSucc] = useState(false)
-  const PublicFlo = ""
+  // const PublicFlo = ""
 
   const handleSubmit = async (e) => {
     e.preventDefault()
