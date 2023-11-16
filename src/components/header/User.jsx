@@ -78,7 +78,7 @@ export const User = () => {
           </>
         ) : (
           <Link to='/login'>
-            <button>My Account</button>
+            <button><img src={"log.png"} alt='My Account' /></button>
           </Link>
         )}
       </div>
