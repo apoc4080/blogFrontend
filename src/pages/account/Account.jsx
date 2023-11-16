@@ -99,7 +99,7 @@ export const Account = () => {
             <div className='left'>
               <div className='img flexCenter'>
                 <img
-                  src={file ? URL.createObjectURL(file) : (user.profilePic || user.profilePic === "" ? "log.png" : user.profilePic)}
+                  src={file ? URL.createObjectURL(file) : ( user.profilePic === "" ? "log.png" : user.profilePic)}
                   alt=''
                 />
                 <label htmlFor='inputfile'>
