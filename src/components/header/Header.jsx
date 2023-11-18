@@ -1,5 +1,6 @@
-import React, { useContext } from "react"
-import logo from "../../assets/images/logo.svg"
+import React from "react"
+// import logo from "../../assets/images/logo.svg"
+import q1 from "../../assets/images/q1.png"
 import "./header.css"
 import { User } from "./User"
 import { nav } from "../../assets/data/data"
@@ -15,8 +16,8 @@ export const Header = () => {
     <>
       <header className='header'>
         <div className='scontainer flex'>
-          <div className='logo'>
-            <img src={logo} alt='logo' width='100px' />
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <img src={q1} alt='logo' width='170px' />
           </div>
           <nav>
             <ul>

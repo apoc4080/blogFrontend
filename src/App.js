@@ -40,7 +40,6 @@ const App = () => {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/course' component={Course} />
           <Route exact path='/initiatives' component={Initiatives} />
-
         </Switch>
         <Footer />
       </Router>
