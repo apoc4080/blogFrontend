@@ -18,19 +18,6 @@ export const newss = {
         {
             "source": {
                 "id": null,
-                "name": "The A.V. Club"
-            },
-            "author": "Emma Keates",
-            "title": "Matty Healy says he was \"briefly imprisoned\" in Malaysia over same-sex",
-            "description": "As The 1975 inch closer to their “indefinite” hiatus, frontman and international provocateur Matty Healy is taking time to tie up some loose ends from a chain of mostly non-music-related controversies he perpetuated over the course of the band’s previous tour…",
-            "url": "https://www.avclub.com/matty-healy-fallout-same-sex-kiss-in-malaysia-speech-1850915785",
-            "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/3c221bfa3812f228b37ce2cec1a22fcb.jpg",
-            "publishedAt": "2023-10-10T20:11:31Z",
-            "content": "As The 1975 inch closer to their indefinite hiatus, frontman and international provocateur Matty Healy is taking time to tie up some loose ends from a chain of mostly non-music-related controversies … [+7391 chars]"
-        },
-        {
-            "source": {
-                "id": null,
                 "name": "Quartz India"
             },
             "author": "Ananya Bhattacharya",
@@ -53,19 +40,6 @@ export const newss = {
             "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/10/2023-10-19T154151Z_1213037697_RC2YU3AXW6GQ_RTRMADP_3_INDIA-LGBT-USA-1698131849.jpg?resize=1920%2C1440",
             "publishedAt": "2023-10-24T07:28:55Z",
             "content": "New Delhi, India In the summer of 2018, three bodies were recovered from the Sabarmati River in Ahmedabad, a sprawling city in western Indias Gujarat state.\r\nTwo women Asha Thakor, 30, and Bhavna Tha… [+8212 chars]"
-        },
-        {
-            "source": {
-                "id": "al-jazeera-english",
-                "name": "Al Jazeera English"
-            },
-            "author": "Srishti Jaswal",
-            "title": "Gays in India slam top court for passing marriage rights buck to parliament",
-            "description": "Supreme Court recognises LBGTQ community faces discrimination from state, but declines to get into 'judicial lawmaking'.",
-            "url": "https://www.aljazeera.com/news/2023/10/24/gays-in-india-slam-top-court-for-passing-marriage-rights-buck-to-parliament",
-            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/10/2023-10-19T154151Z_1213037697_RC2YU3AXW6GQ_RTRMADP_3_INDIA-LGBT-USA-1698131849.jpg?resize=1920%2C1440",
-            "publishedAt": "2023-10-24T07:28:55Z",
-            "content": "New Delhi, India In the summer of 2018, three bodies were recovered from the Sabarmati River in Ahmedabad, a sprawling city in western Indias Gujarat state.\r\nA lesbian couple Asha Thakor, 30, and Bha… [+8259 chars]"
         },
         {
             "source": {
@@ -134,32 +108,6 @@ export const newss = {
         },
         {
             "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "1970-01-01T00:00:00Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "1970-01-01T00:00:00Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
                 "id": "abc-news-au",
                 "name": "ABC News (AU)"
             },
@@ -183,6 +131,19 @@ export const newss = {
             "urlToImage": "https://www.advocate.com/media-library/indias-top-court-rejects-marriage-equality-in-landmark-lgbtq-ruling.jpg?id=49835663&width=1200&height=600&coordinates=0%2C78%2C0%2C0",
             "publishedAt": "2023-10-17T14:00:55Z",
             "content": "By Rhea Mogul, Manveena Suri, Vedika Sud, Sania Farooqui and Tanushree Pandey, CNN\r\nNew Delhi (CNN) Indias top court has declined to legally recognize same-sex unions in a landmark ruling that also e… [+5383 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thenation.com"
+            },
+            "author": "Daniel Steinmetz-Jenkins",
+            "title": "The History of Equality: It’s Complicated",
+            "description": "Daniel Steinmetz-Jenkins\n\n\n\nA conversation with the historian Darrin McMahon about his new book Equality: The History of an Elusive Idea and the strange and contradicting development of the liberal version of egalitarianism. \r\n\n\r\n\n\nThe post The History of Equ…",
+            "url": "https://www.thenation.com/?post_type=article&#038;p=471842",
+            "urlToImage": "https://www.thenation.com/wp-content/uploads/2023/11/GettyImages-3397746.jpg",
+            "publishedAt": "2023-11-16T10:00:00Z",
+            "content": "Books abound these days on the subject of inequality, spanning categories such as race, class, and nationality. But what is equality in the first place? What does it mean, and for whom? Darrin McMaho… [+21209 chars]"
         },
         {
             "source": {
@@ -222,19 +183,6 @@ export const newss = {
             "urlToImage": "https://d.ibtimes.com/en/full/4431227/participants-hold-rainbow-flag-during-gay-pride-parade-which-promoting-gay-lesbian-bisexual.jpg",
             "publishedAt": "2023-10-17T15:42:33Z",
             "content": "KEY POINTS\r\n<ul><li>India's Supreme Court said the decision about same-sex marriages should be handled by the Parliament</li><li>The court gave directives to the government and to the police to ensur… [+7420 chars]"
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Rhea Mogul",
-            "title": "India's top court is set to rule on same-sex marriage. Here's what that could mean for millions of people",
-            "description": "In a landmark case watched by tens of thousands every day, India's Supreme Court has been hearing submissions from activists challenging the same-sex marriage law.",
-            "url": "https://www.cnn.com/2023/10/16/india/india-same-sex-marriage-ruling-lgbtq-intl-hnk-dst/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230705040229-01-india-pride-siliguri-bill-scrap-123018-file.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2023-10-16T05:52:24Z",
-            "content": "It wasnt love at first sight when Aditi Anand met Susan Dias at a book club in Mumbai. \r\nWe didnt get along with each other at all, Anand, a filmmaker, said with a smile as she recalled the encounter… [+7105 chars]"
         },
         {
             "source": {
@@ -345,6 +293,19 @@ export const newss = {
                 "id": null,
                 "name": "Wealthofgeeks.com"
             },
+            "author": "Simon Braund",
+            "title": "Shakespeare Movies that Aren’t Shakespeare",
+            "description": "When it comes to literary works on film, no one touches William Shakespeare. The 38 plays he wrote between 1589 and 1616, the year of ... Read More",
+            "url": "https://wealthofgeeks.com/shakespeare-movies-that-arent-shakespeare/",
+            "urlToImage": "https://wealthofgeeks.com/wp-content/uploads/2023/11/Shakespeare-But-Not.jpg",
+            "publishedAt": "2023-11-14T23:00:58Z",
+            "content": "When it comes to literary works on film, no one touches William Shakespeare. The 38 plays he wrote between 1589 and 1616, the year of his death, account for around 1220 big- and small-screen adaptati… [+14361 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wealthofgeeks.com"
+            },
             "author": "Maya Capasso",
             "title": "Grounded Scary Movies That Terrify Because They Could Be Reality",
             "description": "October 27, 2023 Many horror buffs love the rush of fear they get by watching scary movies because the terrors stay limited to the fictional world on the",
@@ -378,6 +339,19 @@ export const newss = {
             "urlToImage": "https://i.abcnewsfe.com/a/f74e9a9a-9be9-452a-a56f-97697101c965/wirestory_f8be8a20f5d895ffadd6eb98960677cb_16x9.jpg?w=992",
             "publishedAt": "2023-10-17T07:50:55Z",
             "content": "NEW DELHI -- Indias top court refused to legalize same-sex marriages, with the chief justice of the country saying Tuesday that it was up to Parliament to create such a law. \r\nChief Justice DY Chandr… [+1093 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Decider"
+            },
+            "author": "mliss1578",
+            "title": "Stream It Or Skip It: ‘Rainbow Rishta’ on Prime Video, A Docuseries About LGBTQ+ Individuals In India",
+            "description": "Rainbow Rishta is a beautiful series about the power of love and acceptance, no matter who you are.",
+            "url": "https://decider.com/2023/11/10/rainbow-rishta-amazon-prime-video-review-stream-it-or-skip-it/",
+            "urlToImage": "https://decider.com/wp-content/uploads/2023/11/RAINBOW-RISHTA-PRIME-VIDEO-REVIEW.jpg?quality=75&strip=all&w=1200",
+            "publishedAt": "2023-11-10T17:30:00Z",
+            "content": "Despite progress in Indias recognition of homosexual and queer individuals in the last decade (including decriminalizing Section 377 in 2018, which previously prosecuted people engaging in homosexual… [+4983 chars]"
         },
         {
             "source": {
@@ -420,6 +394,19 @@ export const newss = {
         },
         {
             "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Celia Wren",
+            "title": "‘Public Obscenities’ playwright asks, ‘Who gets to be an artist?’",
+            "description": "Known for bold works, Woolly Mammoth Theatre Company shifts gears with Shayok Misha Chowdhury’s subtle drama.",
+            "url": "https://www.washingtonpost.com/entertainment/theater/2023/11/15/woolly-mammoth-public-obscenities/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RE2UJB4JRZHB7BNUV2RIGYB7I4_size-normalized.jpg&w=1440",
+            "publishedAt": "2023-11-15T19:00:21Z",
+            "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nPublic Obscenities has been no cinch to stage, says director Shayok Misha Chowdhury. Thats saying something, seeing as he also wrote t… [+5349 chars]"
+        },
+        {
+            "source": {
                 "id": null,
                 "name": "Thehillstimes.in"
             },
@@ -430,19 +417,6 @@ export const newss = {
             "urlToImage": "https://thehillstimes.in/wp-content/uploads/2022/03/editorial.jpg",
             "publishedAt": "2023-10-19T06:01:16Z",
             "content": "The Supreme Courts ruling on same-sex marriage, delivered by a five-member bench, has left many pondering the complexities and uncertainties surrounding this long-awaited issue. While the diverse ver… [+3485 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "NDTV News"
-            },
-            "author": null,
-            "title": "7 Top LGBTQ+ Owned Restaurants and Bars In India",
-            "description": "Here are seven carefully selected restaurants in India that are either LGBTQ+ owned or LGBTQ+ friendly.",
-            "url": "https://food.ndtv.com/food-drinks/7-queer-owned-and-lgbtq-friendly-restaurants-and-bars-in-india-4515067",
-            "urlToImage": "https://c.ndtvimg.com/2023-10/cru9mhpg_queerowned-cafes-lgbtq-restaurants_625x300_26_October_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
-            "publishedAt": "2023-10-27T03:31:59Z",
-            "content": "The hospitality industry in India has been increasingly embracing inclusivity, providing safe spaces for a diverse range of people. In addition to fine-dining restaurants and charming cafes, there is… [+5293 chars]"
         },
         {
             "source": {
@@ -521,19 +495,6 @@ export const newss = {
             "urlToImage": "https://img.etimg.com/thumb/msid-104503726,width-1200,height-630,imgsize-188292,overlay-economictimes/photo.jpg",
             "publishedAt": "2023-10-17T14:47:00Z",
             "content": "New Delhi: With the Supreme Court declining to accord legal recognition to same-sex marriage on Tuesday, a section of the LGBTQ+ community, petitioners and activists highlighted the positives in the … [+3011 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Reuters",
-            "title": "Supreme Court to deliver same-sex marriages verdict on Tuesday",
-            "description": "India's Supreme Court will announce its verdict on legal recognition of same-sex marriages on Tuesday. If granted, it will be a significant development for LGBTQ rights in the country and may require the redefinition of family laws. Currently, Taiwan and Nepa…",
-            "url": "https://economictimes.indiatimes.com/news/india/supreme-court-to-deliver-same-sex-marriages-verdict-on-tuesday/articleshow/104482041.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-104482137,width-1200,height-630,imgsize-9928,overlay-economictimes/photo.jpg",
-            "publishedAt": "2023-10-17T02:22:09Z",
-            "content": "India's apex court will deliver a verdict on Tuesday on granting legal recognition to same-sex marriages, a ruling that has the potential to spark momentous changes in the world's most populous count… [+1253 chars]"
         },
         {
             "source": {
@@ -629,6 +590,32 @@ export const newss = {
         {
             "source": {
                 "id": null,
+                "name": "Thepinknews.com"
+            },
+            "author": "Maggie Baska",
+            "title": "Five ground-breaking trans icons from history you’ve probably never heard of",
+            "description": "Any queer person who has a social media account has undoubtedly encountered the tired, bigoted rhetoric that being trans is a modern “trend”. The claim has been a favourite refrain sung by conservative voices – from Republican presidential candidate Vivek Ram…",
+            "url": "https://www.thepinknews.com/2023/11/14/trans-awareness-week-trans-history-icons/",
+            "urlToImage": "https://www.thepinknews.com/wp-content/uploads/2023/10/trans-awareness-week-trans-icons-history.jpeg",
+            "publishedAt": "2023-11-14T12:55:42Z",
+            "content": "Any queer person who has a social media account has undoubtedly encountered the tired, bigoted rhetoric that being trans is a modern “trend”. The claim has been a favourite refrain sung by conservati… [+6111 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Upenn.edu"
+            },
+            "author": "Queer Cinema Symposium - Jadavpur University",
+            "title": "Queer Cinema & Festivals in India: Production, Circulation & Politics",
+            "description": "updated: \r\nFriday, November 10, 2023 - 11:30am\r\nDepartment of English, Jadavpur University and The School of Culture and Creative Arts, University of Glasgow \r\ndeadline for submissions: \r\nMonday, November 20, 2023\r\nDepartment of English, Jadavpur University a…",
+            "url": "http://call-for-papers.sas.upenn.edu/cfp/2023/11/10/queer-cinema-festivals-in-india-production-circulation-politics",
+            "urlToImage": null,
+            "publishedAt": "2023-11-10T15:12:26Z",
+            "content": "Department of English, Jadavpur University and\r\n The School of Culture and Creative Arts, University of Glasgow present\r\nA One-Day Symposium (funded by Carnegie Trust Research Incentive Grant)\r\nQueer… [+2367 chars]"
+        },
+        {
+            "source": {
+                "id": null,
                 "name": "Freerepublic.com"
             },
             "author": "LifeSiteNews",
@@ -638,19 +625,6 @@ export const newss = {
             "urlToImage": null,
             "publishedAt": "2023-10-19T00:12:59Z",
             "content": "Skip to comments.\r\nIndias Supreme Court leaves it to Parliament to decide on legalizing same-sex marriageLifeSiteNews ^\r\n | October 17th 2023\r\n | Doug Mainwaring\r\nPosted on 10/18/2023 5:12:59 PM PDT … [+5448 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Star Online"
-            },
-            "author": "The Star Online",
-            "title": "India awaits top court verdict on same-sex marriages",
-            "description": "NEW DELHI (Reuters) - India's top court will deliver a verdict on Tuesday on granting legal recognition to same-sex marriages, a ruling that has the potential to spark momentous changes in the world's most populous country. Read full story",
-            "url": "https://www.thestar.com.my/news/world/2023/10/17/india-awaits-top-court-verdict-on-same-sex-marriages",
-            "urlToImage": "https://apicms.thestar.com.my/uploads/images/2023/10/17/2339121.jpg",
-            "publishedAt": "2023-10-16T16:17:00Z",
-            "content": "FILE PHOTO: A participant holds a banner during Queer Azadi Pride, an event promoting gay, lesbian, bisexual and transgender rights, in Mumbai, India, February 1, 2020. REUTERS/Francis Mascarenhas/Fi… [+1566 chars]"
         },
         {
             "source": {
@@ -809,5 +783,4 @@ export const newss = {
             "content": "India's Supreme Court rejected a plea to legalize same-sex marriage Tuesday, saying that it was up to parliament to legislate the issue. However, it said the community must be protected from discrimi… [+4285 chars]"
         }
     ]
-  }
-  
+}

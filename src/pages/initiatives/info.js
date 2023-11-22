@@ -36,7 +36,7 @@ export const initiatives = [
         "description": "A community-led initiative by Qequal Foundation, based in Delhi, working at the intersection of health and technology to enable equitable healthcare for the LGBTQ+ community in India.",
         "facebook": "https://www.facebook.com/followsafeaccess/",
         "website": "http://www.safeaccess.co.in",
-        "photo": "https://scontent.famd15-1.fna.fbcdn.net/v/t39.30808-6/310546362_474716524694060_8499760303691289942_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EdxEGMwf5w4AX956OTk&_nc_ht=scontent.famd15-1.fna&oh=00_AfC_qZxY9gPzkFMuwSR47dkF7v3GGkPLPzbK1Xxf2u-mXg&oe=65574059"
+        "photo": "safe.png"
     },
     {
         "name": "Bold Transgender Modeling Agency",
@@ -48,7 +48,7 @@ export const initiatives = [
         "name": "GHAR घर Gay Housing Assistance Resource گھر",
         "description": "G.H.A.R., (Gay Housing Assistance Resource) which means 'home' in many Indian languages. It is a FREE all-India location-based, short-, medium- and long-term accommodation resource bulletin board for LGBTIQ people and allies who are or plan to be renters, roommates, flatmates or owners in India. Keeping up with the evolution of the internet,the group has moved from started on E-groups (1998), moved to Yahoogroups (2001) and then to Facebook (2012).",
         "website": "Started on E-groups (1998), moved to Yahoogroups (2001), and then to Facebook (2012)",
-        "photo": "https://scontent.famd15-2.fna.fbcdn.net/v/t39.30808-6/318065589_10159325159021045_8357109407285708203_n.png?stp=dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CSuCG02Q3QYAX92khMS&_nc_ht=scontent.famd15-2.fna&oh=00_AfAcfNEIzewXRmdGAvD3dN9MSH8Prf0Q1S3DHKKqfnGkBw&oe=6557E9FA"
+        "photo": "ghar.jpeg"
     },
     {
         "name": "101 Coming Out Stories from India",
